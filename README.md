@@ -13,4 +13,4 @@ pip3 install -r requirements.txt
 python3 app.py
 ```
 * Or
-Start app.exe inside dist folder
+Start `app.exe` inside dist folder
