@@ -30,7 +30,7 @@ def handle_release(key):
 
     print(f"{Key} released")
 
-    # If key enter is pressed
+    # Key event
     if Key == "Key.enter":
         sound_bell.play()
         # Wait for sound to stop
@@ -50,7 +50,7 @@ def handle_press(key):
     
     print(f"{Key} pressed")
 
-    # If key enter is pressed
+    # Key event
     if Key == "Key.space":
         sound_spacebar.play()
     elif Key == "Key.backspace":
@@ -61,6 +61,6 @@ def handle_press(key):
         sound_keydown.play()
 
 
-
+# Listen for keypress
 with keyboard.Listener(on_release = handle_release, on_press=handle_press) as listener:
     listener.join()
