@@ -18,4 +18,4 @@ Start `app.exe` inside dist folder
 #### Warning
 * Make sure the `sounds` folder is in the same folder as app
 * The .exe app may be detected as a virus, because the script listen for key presses, but it is not a virus. 
-* You can generate your own .exe with `pyinstaller -F app.py
+* You can generate your own .exe with `pyinstaller -F app.py`
